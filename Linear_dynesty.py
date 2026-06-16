@@ -137,7 +137,6 @@ f.close()
 #print('Done')
 cov = C
 xdiag = 1/cov.diagonal()  # diagonal before marginalising constant
-cov += 3**2
 zmin = zcmb.min()
 zmax = zcmb.max()
 zmaxi = 1.1 ## we interpolate to 1.1 beyond that exact calc
